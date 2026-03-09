@@ -1,0 +1,13 @@
+credentials.py*
+__pycache__/
+*.swp
+*.pyc
+*.html
+*.log
+*.sqlite
+
+py3k/
+environment
+storage/
+restore/
+.ricecookerfilecache/

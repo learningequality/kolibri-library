@@ -1,0 +1,83 @@
+	فيزياء امجد الاحمد	Physics Amjad Al-Ahmad
+	فيزياء - ارشيف	Physics - Archive
+	فيزياء - محمد العساف	Physics - Mohammad Assaf
+	كيمياء اكرم الاحمد - فصل أول	Chemistry Akram Al-Ahmad - first season
+	كيمياء اكرم الاحمد	Chemistry Akram Al-Ahmad
+	كيمياء - هاني السلاق	Chemistry - Hani Thrush
+no	رياضيات علمي _ اياد جادالله _ فصل ثاني	Mathematics science _ Iyad Jadallah _ second season
+no	رياضيات علمي- فصل اول -اياد جاد الله	Mathematics first chapter my knowledge -eyad Jad Allah
+no	رياضيات علمي - محمد العبدللات - فصل أول	Science - Mathematics Mohamed Aelaidllat - the first chapter
+no	رياضيات علمي  محمد العبدللات - فصل ثاني	Scientific mathematics Mohamed Aelaidllat - second season
+no	رياضيات علمي - فصل ثاني	Mathematics science - second season
+no	رياضيات علمي - مراجعة  فصل ثاني	Scientific mathematics - Review the second chapter
+no	الاحياء -ضرار أبو طربوش	Neighborhoods -dharar Abu Tarbush
+no	عربي تخصص سنان حواري - فصل ثاني	Arabic Specialization Sinan Talk - second season
+no	عربي تخصص - فصل ثاني	Arabic specialty - second season
+no	عربي تخصص - سنان حواري - فصل أول	Arabic specialization - Sinan talk show - first season
+no	رياضيات أدبي - فصل ثاني	Mathematics literary - second season
+no	رياضيات أدبي - محمود المحارمة - فصل أول	Mathematics literary - Mahmoud Maharmh - the first chapter
+no	الجغرافيا - فصل ثاني	Geography - second season
+no	ثقافة مالية -  فصل ثاني	Financial culture - second season
+no	ثقافة مالية مروان محارمه - فصل أول	Financial Culture Marwan mahrams - first season
+no	عربي - مهارات - فصل ثاني	Arabic - Skills - second season
+no	عربي - أ. عامر ضراغمة	Arabic - a. Amer Daraghmeh
+no	عربي - وليد الطقاطقة - الفصل الاول	Arabic - Walid Tqatqh - Chapter One
+no	عربي مشترك - فصل أول - د.عبادة عواد	Joint Arab - first season - D.ebadh Awad
+no	عربي _ قطع _ فصل اول	_ Arabic _ separated first cut
+no	انجليزي _ قطع _ فصل اول	English _ _ separated first cut
+no	انجليزي محمد الحارون / فصل اول	English Mohamed Alharon / separated first
+no	إنجليزي - محمد الحارون / فصل ثاني	English - Mohammad Haroon / second season
+no	انجليزي / محمد حبله / فقرات	English / Mohamed Habla / paragraphs
+no	انجليزي / ابراهيم الطواها / فقرات	English / Ibrahim Ataiwaha / paragraphs
+no	انجليزي ساهر رمضان / فصل اول	English Saher Ramadan / separated first
+no	لغة إنجليزية - فصل ثاني	English - second season
+no	حاسوب - بشارة جبارة	Computer - a powerful Gospel
+	عاشر - رياضيات	Tenth - Mathematics
+	عاشر - الفيزياء	Tenth - Physics
+	عاشر - كيمياء	Tenth - Chemistry
+no	عاشر - قواعد اللغة العربية	Tenth - Arabic grammar
+no	عاشر - قواعد اللغة الإنجليزية	Tenth - English Grammar
+	رياضيات - عاشر - فصل ثاني	Mathematics - tenth - second season
+no	انجليزي - عاشر - فصل ثاني	English - tenth - second season
+	عربي - عاشر - فصل ثاني	Arabic - tenth - second season
+	فيزياء - عاشر - فصل ثاني	Physics - tenth - second season
+	كيمياء - عاشر - فصل ثاني	Chemistry - tenth - second season
+	تاسع - فيزيا	Ninth - FISIA
+	تاسع رياضيات	Ninth mathematics
+no	تاسع انجليزي	Ninth English
+	تاسع عربي	Ninth Arabic
+	كيمياء - تاسع	Chemistry - ninth
+	رياضيات - تاسع - فصل ثاني	Mathematics - ninth - second season
+no	انجليزي - تاسع - فصل ثاني	English - ninth - second season
+	عربي - تاسع - فصل ثاني	Arabic - ninth - second season
+	فيزياء - تاسع - فصل ثاني	Physics - ninth - second season
+	كيمياء - تاسع - فصل ثاني	Chemistry - ninth - second season
+	ثامن-رياضيات	Eighth-math
+	ثامن - عربي	Eighth - Arabic
+no	ثامن انجليزي	Eighth English
+	ثامن - علوم	Eighth - Science
+	رياضيات - ثامن - فصل ثاني	Mathematics - the eighth - second season
+	عربي - ثامن - فصل ثاني	Arabic - eighth - second season
+	علوم - ثامن - فصل ثاني	Science - eighth - second season
+no	انجليزي - ثامن - فصل ثاني	English - eighth - second season
+	سابع عربي	Seventh Arabic
+	سابع علوم	Seventh Science
+	سابع - رياضيات	Seventh - Mathematics
+no	انجليزي - سابع	English - seventh
+	رياضيات - سابع - فصل ثاني	Mathematics - seventh - second season
+no	انجليزي - سابع - فصل ثاني	English - seventh - second season
+	عربي - سابع - فصل ثاني	Arabic - seventh - second season
+	علوم - سابع - فصل ثاني	Science - seventh - second season
+no	سادس عربي	Sixth Arabic
+no	سادس علوم	SF Science
+no	سادس رياضيات	Sixth mathematics
+no	سادس انجليزي	Sixth English
+no	رياضيات - سادس - فصل ثاني	Mathematics - sixth - second season
+no	انجليزي - سادس - فصل ثاني	English - sixth - second season
+no	عربي - سادس - فصل ثاني	Arabic - sixth - second season
+no	علوم - سادس - فصل ثاني	Science - the sixth - second season
+no	كوكتيل - فيزياء - علمي	Collection - Physics - Science
+no	كوكتيل - رياضيات - علمي	Collection - Mathematics - Scientific
+no	كوكتيل - عربي - علمي	Collection - Arabic - scientific
+no	كوكتيل رياضيات ادبي	Cocktail mathematics literary
+no	كوكتيل عربي ادبي	Arabic literary cocktail

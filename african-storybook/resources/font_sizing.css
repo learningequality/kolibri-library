@@ -1,0 +1,51 @@
+@media only screen and (orientation: landscape) {
+    .cover_title {
+        font-size: 3.3vw;
+        line-height: 3.5vw;
+    }
+    .cover_author {
+        font-size: 2.5vw;
+        line-height: 2.7vw;
+    }
+    .cover_artist {
+        font-size: 2vw;
+        line-height: 2vw;
+    }
+
+    .levelFont1 {
+        font-size: 3.5vw !important;
+        line-height: 4.0vw !important;
+    }
+    .levelFont2 {
+        font-size: 3vw !important;
+        line-height: 3.5vw!important;
+    }
+    .levelFont3 {
+        font-size: 2.5vw !important;
+        line-height: 3.0vw !important;
+    }
+    .levelFont4 {
+        font-size: 2.2vw!important;
+        line-height: 2.4vw !important;
+    }
+    .levelFont5 {
+        font-size: 1.8vw!important;
+        line-height: 2.0vw !important;
+    }
+    .levelFont6 {
+        font-size: 1.5vw!important;
+        line-height: 1.7vw !important;
+    }
+}
+
+#go-back {
+    cursor: pointer;
+}
+
+#go-next {
+    cursor: pointer;
+}
+
+#readingRange {
+    cursor: pointer;
+}

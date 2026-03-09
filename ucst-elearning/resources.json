@@ -1,0 +1,137 @@
+[
+    {"title": "قسم العلوم الطبية", "source_id": "قسم العلوم الطبية", 
+    "subjects": [
+        {"title": "أحياء دقيقة - General Microbiology", "source_id": "أحياء دقيقة - General Microbiology",
+        "lessons": ["https://www.youtube.com/watch?v=OVIaOTD6-PA&list=PLobMNmZlKiqxjjdBRhioXYJ-xzNVC29R6"],
+        "lang": "ar"
+        },
+        {"title": "أجهزة ومعدات طبية", "source_id": "أجهزة ومعدات طبية",
+        "lessons": ["https://www.youtube.com/watch?v=oIxUpzKowhI&list=PLobMNmZlKiqzNta_H8w2hqWaiem_Y8lqR"],
+        "lang": "ar"
+        },
+        {"title": "شروحات مساق بنك الدم", "source_id": "شروحات مساق بنك الدم",
+        "lessons": ["https://www.youtube.com/watch?v=OB1Y-ftYWmE&list=PLobMNmZlKiqy7xoad5iDYYpOm88VkrP5l"],
+        "lang": "ar"
+        },
+        {"title": "المصطلحات الطبية", "source_id": "المصطلحات الطبية",
+        "lessons": ["https://www.youtube.com/watch?v=dWw99Xw9_rM&list=PLobMNmZlKiqx7npeEX60G9pEv6_5hy3kJ"],
+        "lang": "ar"
+        },
+        {"title": "علم البيولوجيا الجزئي التطبيقي", "source_id": "علم البيولوجيا الجزئي التطبيقي",
+        "lessons": ["https://www.youtube.com/watch?v=Vlb_XRzxKAQ&list=PLobMNmZlKiqwp1yqvuMJeA0RWwtL38E2i"],
+        "lang": "ar"
+        },
+        {"title": "استراتيجيات إدارة الرعاية", "source_id": "استراتيجيات إدارة الرعاية",
+        "lessons": ["https://www.youtube.com/watch?v=byoSMc0gVis&list=PLobMNmZlKiqy1kMF4NkhKuUgnr688HY49"],
+        "lang": "ar"
+        },
+        {"title": "علم الأحياء الدقيقة", "source_id": "علم الأحياء الدقيقة",
+        "lessons": ["https://www.youtube.com/watch?v=yQwK1jF1v8E&list=PLobMNmZlKiqx-1HQB3VXECOxaO-FJmzaf"],
+        "lang": "ar"
+        },
+        {"title": "علم الأمراض - General Pathology", "source_id": "علم الأمراض - General Pathology",
+        "lessons": ["https://www.youtube.com/watch?v=Mt7_U4Hz5pw&list=PLobMNmZlKiqwhA7pkizNsLetcFltBlEOv"],
+        "lang": "ar"
+        }
+    ]},
+    {"title": "القسم الأكاديمي", "source_id": "القسم الأكاديمي",
+    "subjects": [
+        {"title": "تفاضل وتكامل 2", "source_id": "تفاضل وتكامل 2",
+        "lessons": ["https://www.youtube.com/watch?v=CnWcgTkAtLU&list=PLobMNmZlKiqz0OqF5S6YcuweiMLS2LHtR"],
+        "lang": "ar"
+        },
+        {"title": "شروحات مبادئ الإحصاء", "source_id": "شروحات مبادئ الإحصاء",
+        "lessons": ["https://www.youtube.com/watch?v=BizxpmkNWIM&list=PLobMNmZlKiqzaHARp8wk_t-dYVY9YhUhZ"],
+        "lang": "ar"
+        },
+        {"title": "مهارات لغوية", "source_id": "مهارات لغوية",
+        "lessons": ["https://www.youtube.com/watch?v=CIFN07TqY08&list=PLobMNmZlKiqxrmTpR24Wogd26rU1tHFY1"],
+        "lang": "ar"
+        },
+        {"title": "برنامج لغتنا والحوسبة", "source_id": "برنامج لغتنا والحوسبة",
+        "lessons": ["https://www.youtube.com/watch?v=r0U1vZsWSOk&list=PLobMNmZlKiqyXtkwpP11vNhvG3f4dwvpf"],
+        "lang": "ar"
+        }
+    ]},
+    {"title": "قسم العلوم الهندسية والفنون التطبيقية", "source_id": "قسم العلوم الهندسية والفنون التطبيقية",
+    "subjects": [
+        {"title": "معالجة الصور الطبية - Medical Image Processing", "source_id": "معالجة الصور الطبية - Medical Image Processing",
+        "lessons": ["https://www.youtube.com/watch?v=cqHgCKiwstU&list=PLobMNmZlKiqy3qyzBtD_LzhfxW_Ey-WMP"],
+        "lang": "ar"
+        }
+    ]},
+    {"title": "قسم العلوم الإدارية والمالية", "source_id": "قسم العلوم الإدارية والمالية",
+    "subjects": [
+        {"title": "استراتيجيات إدارة الرعاية", "source_id": "استراتيجيات إدارة الرعاية",
+        "lessons": ["https://www.youtube.com/watch?v=byoSMc0gVis&list=PLobMNmZlKiqy1kMF4NkhKuUgnr688HY49"],
+        "lang": "ar"
+        },
+        {"title": "محاسبة قومية وحكومية", "source_id": "محاسبة قومية وحكومية",
+        "lessons": ["https://www.youtube.com/watch?v=v5QPzGbXjVQ&list=PLobMNmZlKiqzKMG9CiLy9sVa40uMOWRkm"],
+        "lang": "ar"
+        }
+    ]},
+    {"title": "قسم علوم الحاسوب وتكنولوجيا المعلومات", "source_id": "قسم علوم الحاسوب وتكنولوجيا المعلومات",
+    "subjects": [
+        {"title": "دعم شبكات محلية", "source_id": "دعم شبكات محلية",
+        "lessons": ["https://www.youtube.com/watch?v=EpX-gmSJ48o&list=PLobMNmZlKiqyUE-NU8jJlT_zvWv_NlHCJ"],
+        "lang": "ar"
+        },
+        {"title": "سلسلة شروحات ( تراكيب بيانات باختصار )", "source_id": "سلسلة شروحات ( تراكيب بيانات باختصار )",
+        "lessons": ["https://www.youtube.com/watch?v=aVaXD_hVdcw&list=PLobMNmZlKiqxw0DLmPjz9AEjnyf_MOO_M"],
+        "lang": "ar"
+        },
+        {"title": "شرح برنامج الفلاش", "source_id": "شرح برنامج الفلاش",
+        "lessons": ["https://www.youtube.com/watch?v=b_BI5F5EWsQ&list=PLobMNmZlKiqzycFCFrtCi8qGaTIZJrKJH"],
+        "lang": "ar"
+        },
+        {"title": "شروحات Adobe Photoshop 1", "source_id": "شروحات Adobe Photoshop 1",
+        "lessons": ["https://www.youtube.com/watch?v=2oYGMvCkVn8&list=PLobMNmZlKiqw2RJurq6hOf3nYr9yS60Zn"],
+        "lang": "ar"
+        },
+        {"title": "شروحات Data Structure", "source_id": "شروحات Data Structure",
+        "lessons": ["https://www.youtube.com/watch?v=pE-wIQgbwns&list=PLobMNmZlKiqxS7lWcAhswWLlCVxg0LrIf"],
+        "lang": "ar"
+        },
+        {"title": "شروحات إدارة شبكات 2", "source_id": "شروحات إدارة شبكات 2",
+        "lessons": ["https://www.youtube.com/watch?v=n1VHyvswHPk&list=PLobMNmZlKiqxHPlZ0CvfM3QwpyWeLQE30"],
+        "lang": "ar"
+        },
+        {"title": "شروحات استخدام الحاسوب في الرسم 1", "source_id": "شروحات استخدام الحاسوب في الرسم 1",
+        "lessons": ["https://www.youtube.com/watch?v=A1bdSMg7ONc&list=PLobMNmZlKiqzkbuP691AuvqmAS2WNaa7-"],
+        "lang": "ar"
+        }
+    ]},
+    {"title": "Other", "source_id": "Other",
+    "subjects": [
+        {"title": "مبحث التكنولوجيا للثانوية العامة", "source_id": "مبحث التكنولوجيا للثانوية العامة",
+        "lessons": [
+            "https://www.youtube.com/watch?v=2mAn5zXaSH8",
+            "https://www.youtube.com/watch?v=J3toEDrW6tA",
+            "https://www.youtube.com/watch?v=HyIYTq0H_G8",
+            "https://www.youtube.com/watch?v=zqPtZcyBmYI",
+            "https://www.youtube.com/watch?v=9HrFVPkC_U4",
+            "https://www.youtube.com/watch?v=sm-XVKVFY50",
+            "https://www.youtube.com/watch?v=eONJKFOlE3A",
+            "https://www.youtube.com/watch?v=TbPQNI_MEoo",
+            "https://www.youtube.com/watch?v=xSAfZ88SbhM",
+            "https://www.youtube.com/watch?v=PIqe8tOGq7M",
+            "https://www.youtube.com/watch?v=yIb6u4em0VY",
+            "https://www.youtube.com/watch?v=BaSVIl_GJCk",
+            "https://www.youtube.com/watch?v=9SgxoQeq1WM",
+            "https://www.youtube.com/watch?v=_uNR0Lc9MOE",
+            "https://www.youtube.com/watch?v=ILQy6KerqGk",
+            "https://www.youtube.com/watch?v=qj_XWORffFw",
+            "https://www.youtube.com/watch?v=O4Wej3EBC84",
+            "https://www.youtube.com/watch?v=coOgQS1e25Q",
+            "https://www.youtube.com/watch?v=dKdFw7sd7BA",
+            "https://www.youtube.com/watch?v=BTPDAanOzp4",
+            "https://www.youtube.com/watch?v=RpzMU8PaWnc",
+            "https://www.youtube.com/watch?v=uR59zAdTHNo",
+            "https://www.youtube.com/watch?v=airxisg2ZWg",
+            "https://www.youtube.com/watch?v=zjSoUHpaDxA"
+        ],
+        "lang": "ar"
+        }
+    ]}
+]

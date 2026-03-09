@@ -1,0 +1,34 @@
+[{
+  "title": "Category Title 01", "source_id": "Category Source Id 01",
+    "subjects": [
+        {"title": "Subject Title 01", "source_id": "Subject Source Id 01",
+        "lessons": [
+            "Lesson 01",
+            "Lesson 02",
+            "Lesson 03"
+        ],
+        "lang": "en"
+        },
+        {"title": "Subject Title 02", "source_id": "Subject Source Id 02",
+        "lessons": [
+            "Lesson 01",
+            "Lesson 02"
+        ],
+        "lang": "en"
+        }
+    ]
+},
+{
+  "title": "Category Title 02", "source_id": "Category Source Id 02",
+    "subjects": [
+        {"title": "Subject Title 01", "source_id": "Subject Source Id 01",
+        "lessons": [
+            "Lesson 01",
+            "Lesson 02",
+            "Lesson 03"
+        ],
+        "lang": "en"
+        }
+    ]
+}
+]

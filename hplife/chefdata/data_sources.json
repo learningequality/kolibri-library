@@ -1,0 +1,72 @@
+{
+  "es": {
+      "courses": {
+          "folder_id": "1uABh_sK12n1LJUniEK6d5WB0iyrt2y3u",
+          "name": "Spanish"
+      },
+      "activityfiles": {
+          "folder_id": "1cOYsKuWEmCLsxgRMyu_cs0MErVnXyl3m",
+          "name": "Spanish - Activity Files"
+      }
+    },
+    "fr": {
+        "courses": {
+            "folder_id": "11tOzql5HG8IGH8K85Ntrs32i5q5CpPg-",
+            "name": "French"
+        },
+        "activityfiles": {
+            "folder_id": "1QDDvnghiVRmzKv0MW8OzuEDJyRdfVjyw",
+            "name": "French - Activity Files"
+        }
+    },
+    "en": {
+        "courses": {
+            "folder_id": "1DCEF7UpObjaTJg3SBv-GnsKCNVd5x7Aa",
+            "name": "English"
+        },
+        "activityfiles": {
+            "folder_id": "1VHYcwXpcdWTsmJ3nFY-V8Md1MMK29kuh",
+            "name": "English - Activity Files"
+        }
+    },
+    "ar": {
+        "courses": {
+            "folder_id": "1LlUAdK60aBuin4Y2uI20LwTQsNudSEOe",
+            "name": "Arabic"
+        },
+        "activityfiles": {
+            "folder_id": "1w2T9WuzCif6yYjVpXVA1uwcUTfirCp9F",
+            "name": "Arabic - Activity Files"
+        }
+    },
+    "hi": {
+        "courses": {
+            "folder_id": "10FWwsBoq80nb3jSnvChiL5JynwBDt45V",
+            "name": "Hindi"
+        },
+        "activityfiles": {
+            "folder_id": "1A571XGMqjrbC0yYoSCRbeUYTp3iIejy7",
+            "name": "Hindi - Activity Files"
+        }
+    },
+    "pt": {
+        "courses": {
+            "folder_id": "1U_6ILghOCVydqpmtAUlWiQLpW_g44xWV",
+            "name": "Portuguese"
+        },
+        "activityfiles": {
+        "folder_id": "1i51tuTCB7HAkDBjmVDdsUobH3O4zhCec",
+            "name": "Portuguese - Activity Files"
+        }
+    },
+    "zh": {
+        "courses": {
+            "folder_id": "1_QotCPWJbqx0kihueg_7s4Mo4ePXWQsf",
+            "name": "Chinese"
+        },
+        "activityfiles": {
+            "folder_id": "1W_g86r8TT2-KCPcuU9wujHi1sdESYmfe",
+            "name": "Chinese Activity Files"
+        }
+    }
+}

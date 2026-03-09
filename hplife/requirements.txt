@@ -1,0 +1,14 @@
+ricecooker>=0.6.39
+Jinja2>=2.10
+
+# Extract HTML part
+html2text>=2018.1.9
+
+# Extract part
+google-api-python-client>=1.7.9
+google-auth-oauthlib>=0.4.0
+oauthlib>=3.0.1
+requests-oauthlib>=1.2.0
+slimit>=0.8.1
+
+

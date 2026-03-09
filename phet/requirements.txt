@@ -1,0 +1,6 @@
+argparse
+ricecooker
+translate
+requests
+deep_translator
+openpyxl

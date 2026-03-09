@@ -1,0 +1,14 @@
+*.pyc
+cache.sqlite
+restore
+cat_*.json
+.ricecookerfilecache
+__pycache__
+zipcache
+venv
+api/full.jsonlines
+api/cache.sqlite
+restore
+storage
+*.json
+*.jsonlines

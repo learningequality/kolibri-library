@@ -1,0 +1,12 @@
+[
+    {"title": "صحتنا في الحج ورمضان", "source_id": "صحتنا في الحج ورمضان", 
+    "lessons": [
+        "https://www.youtube.com/watch?v=y3RDsOoDgWI",
+        "https://www.youtube.com/watch?v=iFFEwZusSCA",
+        "https://www.youtube.com/watch?v=UI65vUIOC8U",
+        "https://www.youtube.com/watch?v=14IpffILu38"
+        ], 
+    "lang": "ar",
+    "remove english titles": [2,19,20,21,22,23]
+    }
+]

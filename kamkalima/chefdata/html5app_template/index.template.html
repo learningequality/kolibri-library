@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="author" content="{{ author }}">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="main-content">
+
+    {% if show_splash_image %}
+    <img src="./img/splash.jpg">
+    {% endif %}
+
+    {% if show_audio_element %}
+    <br>
+    <div class = "audio_style">
+      <audio id="audio-player" controls src="{{ audio_href }}"></audio>
+    </div>
+    <br>
+    {% endif %}
+
+    <h1>{{ title }}</h1>
+
+    {{ content }}
+
+  </div>
+  <script src="text-highlighter-script.js"></script>
+  <script>
+    var timeObject = {{ time_object }};
+    textHighlighter.setTimeObject(timeObject);
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#reader-viewport {
+    background: white;
+}
+
+#slide-container {
+    text-align: center;
+}
+
+#slide-container .slide img {
+    max-height: 100%;
+}

@@ -1,0 +1,4 @@
+le_utils>=0.1.2
+ricecooker>=0.6.4
+robobrowser==0.5.3
+beautifulsoup4==4.5.1

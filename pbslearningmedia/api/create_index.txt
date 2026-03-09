@@ -1,0 +1,3 @@
+index.py
+cat full.jsonlines | ../jq -s ".|unique_by(.detail.canonical_url)" > full.unique.json
+cat full.unique.json | ../jq -c ".[]" > full.uniq.jsonlines

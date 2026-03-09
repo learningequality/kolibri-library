@@ -1,0 +1,7 @@
+le_utils>=0.1.2
+ricecooker>=0.6.8
+pypdf2==1.26.0
+svglib==0.8.1
+reportlab==3.4.0
+cssutils==1.0.2
+beautifulsoup4==4.6.0

@@ -1,0 +1,8 @@
+cache.sqlite
+html
+.ricecookerfilecache/
+__pycache__/
+py3k
+restore
+storage
+environment

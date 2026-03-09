@@ -1,0 +1,6 @@
+black
+mypy
+pre-commit==3.3.3
+types-beautifulsoup4
+types-Pillow
+types-requests

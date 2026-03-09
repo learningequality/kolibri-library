@@ -1,0 +1,156 @@
+{
+    "title": "HP LIFE (es)",
+    "kind": "HP LIFE couses listing",
+    "courses": [
+        {
+            "name": "Marketing de medios sociales",
+            "path": "Marketing de medios sociales",
+            "lang": "es"
+        },
+        {
+            "name": "Encontrar financiamiento",
+            "path": "Encontrar financiamiento",
+            "lang": "es"
+        },
+        {
+            "name": "Pensamiento de diseño",
+            "path": "Pensamiento de diseño",
+            "lang": "es"
+        },
+        {
+            "name": "Administrando información de contacto",
+            "path": "Administrando información de contacto",
+            "lang": "es"
+        },
+        {
+            "name": "Efectivos Sitios Web de negocios",
+            "path": "Efectivos Sitios Web de negocios",
+            "lang": "es"
+        },
+        {
+            "name": "Presentaciones efectivas",
+            "path": "Presentaciones efectivas",
+            "lang": "es"
+        },
+        {
+            "name": "Mentalidad Exitosa",
+            "path": "Mentalidad Exitosa",
+            "lang": "es"
+        },
+        {
+            "name": "Liderazgo eficaz",
+            "path": "Liderazgo eficaz",
+            "lang": "es"
+        },
+        {
+            "name": "Comunicación empresarial",
+            "path": "Comunicación empresarial",
+            "lang": "es"
+        },
+        {
+            "name": "Dirección de correo electrónico de negocios",
+            "path": "Dirección de correo electrónico de negocios",
+            "lang": "es"
+        },
+        {
+            "name": "Pronósticos de ventas",
+            "path": "Pronósticos de ventas",
+            "lang": "es"
+        },
+        {
+            "name": "Ventas en línea",
+            "path": "Ventas en línea",
+            "lang": "es"
+        },
+        {
+            "name": "Fijación de precios",
+            "path": "Fijación de precios",
+            "lang": "es"
+        },
+        {
+            "name": "Comparación entre beneficios de marketing y características",
+            "path": "Comparación entre beneficios de marketing y características",
+            "lang": "es"
+        },
+        {
+            "name": "Administración del inventario",
+            "path": "Administración del inventario",
+            "lang": "es"
+        },
+        {
+            "name": "Contratación de personal",
+            "path": "Contratación de personal",
+            "lang": "es"
+        },
+        {
+            "name": "Planificación estratégica",
+            "path": "Planificación estratégica",
+            "lang": "es"
+        },
+        {
+            "name": "Impresión 3D",
+            "path": "Impresión 3D",
+            "lang": "es"
+        },
+        {
+            "name": "Propuesta única de valor",
+            "path": "Propuesta única de valor",
+            "lang": "es"
+        },
+        {
+            "name": "Iniciando un Pequeño Negocio",
+            "path": "Iniciando un Pequeño Negocio",
+            "lang": "es"
+        },
+        {
+            "name": "Flujo de caja",
+            "path": "Flujo de caja",
+            "lang": "es"
+        },
+        {
+            "name": "Eficiencia de la energía - hacer más con menos",
+            "path": "Eficiencia de la energía - hacer más con menos",
+            "lang": "es"
+        },
+        {
+            "name": "Ganancias y pérdidas",
+            "path": "Ganancias y pérdidas",
+            "lang": "es"
+        },
+        {
+            "name": "Maximización de la capacidad",
+            "path": "Maximización de la capacidad",
+            "lang": "es"
+        },
+        {
+            "name": "Su público objetivo",
+            "path": "Su público objetivo",
+            "lang": "es"
+        },
+        {
+            "name": "Emprendedores sociales",
+            "path": "Emprendedores sociales",
+            "lang": "es"
+        },
+        {
+            "name": "Tecnología de la información para el éxito en los negocios",
+            "path": "Tecnología de la información para el éxito en los negocios",
+            "lang": "es"
+        },
+        {
+            "name": "Presentación de datos",
+            "path": "Presentación de datos",
+            "lang": "es"
+        },
+        {
+            "name": "Aspectos básicos de finanzas",
+            "path": "Aspectos básicos de finanzas",
+            "lang": "es"
+        },
+        {
+            "name": "Administración de la relación con los clientes (ARC)",
+            "path": "Administración de la relación con los clientes (ARC)",
+            "lang": "es"
+        }
+    ]
+}

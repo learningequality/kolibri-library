@@ -1,0 +1,181 @@
+{
+	"13ac107a-f15f-49d2-97e8-60ab2e3b519c-main": [
+		{
+			"title": "Preface",
+		    "page_start": 0,
+		    "page_end": 18
+		},
+		{
+			"title": "Chapter 1. Prerequisites",
+		    "page_start": 18,
+		    "page_end": 90
+		},
+		{
+			"title": "Chapter 2. Equations and Inequalities",
+		    "page_start": 90,
+		    "page_end": 176
+		},
+		{
+			"title": "Chapter 3. Functions",
+		    "page_start": 176,
+		    "page_end": 296
+		},
+		{
+			"title": "Chapter 4. Linear Functions",
+		    "page_start": 296,
+		    "page_end": 360
+		},
+		{
+			"title": "Chapter 5. Polynomial and Rational Functions",
+		    "page_start": 360,
+		    "page_end": 480
+		},
+		{
+			"title": "Chapter 6. Exponential and Logarithmic Functions",
+		    "page_start": 480,
+		    "page_end": 592
+		},
+		{
+			"title": "Chapter 7. The Unit Circle: Sine and Cosine Functions",
+		    "page_start": 592,
+		    "page_end": 658
+		},
+		{
+			"title": "Chapter 8. Periodic Functions",
+		    "page_start": 658,
+		    "page_end": 712
+		},
+		{
+			"title": "Chapter 9. Trigonometric Identities and Equations",
+		    "page_start": 712,
+		    "page_end": 778
+		},
+		{
+			"title": "Chapter 10. Further Applications of Trigonometry",
+		    "page_start": 778,
+		    "page_end": 892
+		},
+		{
+			"title": "Chapter 11. Systems of Equations and Inequalities",
+		    "page_start": 892,
+		    "page_end": 998
+		},
+		{
+			"title": "Chapter 12. Analytic Geometry",
+		    "page_start": 998,
+		    "page_end": 1072
+		},
+		{
+			"title": "Chapter 13. Sequences, Probability and Counting Theory",
+		    "page_start": 1072,
+		    "page_end": 1152
+		},
+		{
+			"title": "Appendix A-1",
+		    "page_start": 1152,
+		    "page_end": 1156
+		},
+		{
+			"title": "Try It Answers B-1",
+		    "page_start": 1156,
+		    "page_end": 1168
+		},
+		{
+			"title": "Odd Answers C-1",
+		    "page_start": 1168,
+		    "page_end": 1216
+		},
+		{
+			"title": "Index D-1",
+		    "page_start": 1216,
+		    "page_end": 1220
+		}
+	],
+	"fd53eae1-fa23-47c7-bb1b-972349835c3c-main": [
+		{
+			"title": "Preface",
+		    "page_start": 0,
+		    "page_end": 16
+		},
+		{
+			"title": "Chapter 1. Functions",
+		    "page_start": 16,
+		    "page_end": 140
+		},
+		{
+			"title": "Chapter 2. Linear Functions",
+		    "page_start": 140,
+		    "page_end": 212
+		},
+		{
+			"title": "Chapter 3. Polynomial and Rational Functions",
+		    "page_start": 212,
+		    "page_end": 342
+		},
+		{
+			"title": "Chapter 4. Exponential and Logarithmic Functions",
+		    "page_start": 342,
+		    "page_end": 454
+		},
+		{
+			"title": "Chapter 5. Trigonometric Functions",
+		    "page_start": 454,
+		    "page_end": 520
+		},
+		{
+			"title": "Chapter 6. Periodic Functions",
+		    "page_start": 520,
+		    "page_end": 574
+		},
+		{
+			"title": "Chapter 7. Trigonometric Identities and Equations",
+		    "page_start": 574,
+		    "page_end": 658
+		},
+		{
+			"title": "Chapter 8. Further Applications of Trigonometry",
+		    "page_start": 658,
+		    "page_end": 772
+		},
+		{
+			"title": "Chapter 9. Systems of Equations and Inequalities",
+		    "page_start": 772,
+		    "page_end": 878
+		},
+		{
+			"title": "Chapter 10. Analytic Geometry",
+		    "page_start": 878,
+		    "page_end": 952
+		},
+		{
+			"title": "Chapter 11. Sequences, Probability and Counting Theory",
+		    "page_start": 952,
+		    "page_end": 1032
+		},
+		{
+			"title": "Chapter 12. Introduction to Calculus",
+		    "page_start": 1032,
+		    "page_end": 1092
+		},
+		{
+			"title": "Appendix A-1",
+		    "page_start": 1092,
+		    "page_end": 1096
+		},
+		{
+			"title": "Try It Answer Section B-1",
+		    "page_start": 1096,
+		    "page_end": 1106
+		},
+		{
+			"title": "Odd Answer Section C-1",
+		    "page_start": 1106,
+		    "page_end": 1152
+		},
+		{
+			"title": "Index D-1",
+		    "page_start": 1152,
+		    "page_end": 1156
+		}
+	]
+}

@@ -1,0 +1,4 @@
+le_utils>=0.1.4
+ricecooker>=0.6.11
+pypdf2==1.26.0
+tika==1.19

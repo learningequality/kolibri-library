@@ -1,0 +1,5 @@
+le_utils>=0.1.2
+ricecooker>=0.6.4
+beautifulsoup4==4.6.0
+cssutils==1.0.2
+pyppeteer==0.0.19

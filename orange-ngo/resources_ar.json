@@ -1,0 +1,23 @@
+[
+    {"title": "مهارات العمل وإدارة الأعمال", "source_id": "مهارات العمل وإدارة الأعمال", 
+    "lessons": ["https://www.youtube.com/watch?v=EtgDivsQUNk",   
+                "https://www.youtube.com/watch?v=Sj2Jc8zFU54",
+                "https://www.youtube.com/watch?v=VF09L2zRISc",
+                "https://www.youtube.com/watch?v=ifvSlL-XFPM"], 
+    "lang": "ar"
+    },
+    {"title": "تحليل البيانات", "source_id": "تحليل البيانات", 
+    "lessons": ["https://www.youtube.com/watch?v=8-jmNCVVUTw"], 
+    "lang": "ar"
+    }, 
+    {"title": "الدعم النفسي", "source_id": "الدعم النفسي", 
+    "lessons": ["https://www.youtube.com/watch?v=plrOCQjtjpA",   
+                "https://www.youtube.com/watch?v=Q5IVFKCGEHc"], 
+    "lang": "ar"
+    }, 
+    {"title": "التدريس", "source_id": "التدريس", 
+    "lessons": ["https://www.youtube.com/watch?v=laQT0ObIO4I",
+                "https://www.youtube.com/watch?v=SxQNT2aHD3I"], 
+    "lang": "ar"
+    }
+]

@@ -1,0 +1,27 @@
+[project]
+name = "migration-scripts"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "git-filter-repo",
+]
+
+[project.scripts]
+migrate = "migrate:main"
+archive = "archive:main"
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "pytest",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

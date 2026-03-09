@@ -1,0 +1,60 @@
+Video compression test
+======================
+
+Context
+-------
+The MIT Blossoms is a collection of 100+ videos on various science subjects.
+Each video is between 200MB and 300MB in it's original mp4 format.
+ - Audio: aac (LC) (mp4a / 0x6134706D), 32000 Hz, mono, fltp, 64 kb/s (default)
+ - Video: h264 (Constrained Baseline) (avc1 / 0x31637661), yuv420p, 640x360
+   [SAR 1:1 DAR 16:9], 629 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+
+To save space on the content curation server, we want to compress the videos while creating the channel.
+But compress how much?
+
+
+
+Compression
+-----------
+The CRF setting in ffmpeg provides a convenient one-stop-shop for setting a perceptual compression level.
+For x264, [sane values are between 18 and 28](http://slhck.info/video/2017/02/24/crf-guide.html).
+
+Here are the results:
+
+    281M  /tmp/video_test_orig.mp4
+
+    217M  /tmp/video_test_crf22.mp4
+    173M  /tmp/video_test_crf24.mp4
+    135M  /tmp/video_test_crf26.mp4
+    103M  /tmp/video_test_crf28.mp4
+     78M  /tmp/video_test_crf30.mp4
+     61M  /tmp/video_test_crf32.mp4
+
+
+Perceptual check
+----------------
+Please help me decide on the best compression ratio to use by viewing some of the videos in this directory
+and reporting your feedback on slack (in the content-dev channel).
+
+
+Result
+------
+We've selected CRF 24 as a good tradeoff between quality (no noticeable degradation)
+and file size (40% saving on test file).
+
+
+
+Commands used to generate videos
+--------------------------------
+
+      ffmpeg -y -i storage/b/b/bbf55bbd610ce4ea90af681eee063132.mp4 -profile:v baseline -level 3.0 -b:a 32k -ac 1 -vf scale="'trunc(oh*a/2)*2:min(ih,480)'" -crf 18 -preset slow -strict -2  -stats /tmp/video_test_crf18.mp4
+      ffmpeg -y -i storage/b/b/bbf55bbd610ce4ea90af681eee063132.mp4 -profile:v baseline -level 3.0 -b:a 32k -ac 1 -vf scale="'trunc(oh*a/2)*2:min(ih,480)'" -crf 20 -preset slow -strict -2  -stats /tmp/video_test_crf20.mp4
+      ffmpeg -y -i storage/b/b/bbf55bbd610ce4ea90af681eee063132.mp4 -profile:v baseline -level 3.0 -b:a 32k -ac 1 -vf scale="'trunc(oh*a/2)*2:min(ih,480)'" -crf 22 -preset slow -strict -2  -stats /tmp/video_test_crf22.mp4
+      ffmpeg -y -i storage/b/b/bbf55bbd610ce4ea90af681eee063132.mp4 -profile:v baseline -level 3.0 -b:a 32k -ac 1 -vf scale="'trunc(oh*a/2)*2:min(ih,480)'" -crf 24 -preset slow -strict -2  -stats /tmp/video_test_crf24.mp4
+      ffmpeg -y -i storage/b/b/bbf55bbd610ce4ea90af681eee063132.mp4 -profile:v baseline -level 3.0 -b:a 32k -ac 1 -vf scale="'trunc(oh*a/2)*2:min(ih,480)'" -crf 26 -preset slow -strict -2  -stats /tmp/video_test_crf26.mp4
+      ffmpeg -y -i storage/b/b/bbf55bbd610ce4ea90af681eee063132.mp4 -profile:v baseline -level 3.0 -b:a 32k -ac 1 -vf scale="'trunc(oh*a/2)*2:min(ih,480)'" -crf 28 -preset slow -strict -2  -stats /tmp/video_test_crf28.mp4
+      ffmpeg -y -i storage/b/b/bbf55bbd610ce4ea90af681eee063132.mp4 -profile:v baseline -level 3.0 -b:a 32k -ac 1 -vf scale="'trunc(oh*a/2)*2:min(ih,480)'" -crf 30 -preset slow -strict -2  -stats /tmp/video_test_crf30.mp4
+      ffmpeg -y -i storage/b/b/bbf55bbd610ce4ea90af681eee063132.mp4 -profile:v baseline -level 3.0 -b:a 32k -ac 1 -vf scale="'trunc(oh*a/2)*2:min(ih,480)'" -crf 32 -preset slow -strict -2  -stats /tmp/video_test_crf32.mp4
+      
+
+

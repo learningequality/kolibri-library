@@ -1,0 +1,10 @@
+.webcache/
+__foundry/
+__pycache__/
+cache.sqlite
+demo/
+*.pyc
+.ricecookerfilecache
+storage/
+restore/
+py3k/

@@ -1,0 +1,10 @@
+venv
+downloads/
+cache.sqlite
+__*
+restore
+stash
+storage
+.ricecookerfilecache
+carousel_downloads
+cat.xml

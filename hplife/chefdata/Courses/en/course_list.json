@@ -1,0 +1,156 @@
+{
+    "title": "HP LIFE (en)",
+    "kind": "HP LIFE couses listing",
+    "courses": [
+        {
+            "name": "Inventory management",
+            "path": "Inventory management",
+            "lang": "en"
+        },
+        {
+            "name": "IT for business success",
+            "path": "IT for business success",
+            "lang": "en"
+        },
+        {
+            "name": "Business email",
+            "path": "Business email",
+            "lang": "en"
+        },
+        {
+            "name": "Sales forecasting",
+            "path": "Sales forecasting",
+            "lang": "en"
+        },
+        {
+            "name": "Effective business websites",
+            "path": "Effective business websites",
+            "lang": "en"
+        },
+        {
+            "name": "Selling online",
+            "path": "Selling online",
+            "lang": "en"
+        },
+        {
+            "name": "Marketing benefits vs. features",
+            "path": "Marketing benefits vs. features",
+            "lang": "en"
+        },
+        {
+            "name": "Energy efficiency - Do more for less",
+            "path": "Energy efficiency - Do more for less",
+            "lang": "en"
+        },
+        {
+            "name": "Setting prices",
+            "path": "Setting prices",
+            "lang": "en"
+        },
+        {
+            "name": "Social entrepreneurship",
+            "path": "Social entrepreneurship",
+            "lang": "en"
+        },
+        {
+            "name": "Business Communications",
+            "path": "Business Communications",
+            "lang": "en"
+        },
+        {
+            "name": "Social media marketing",
+            "path": "Social media marketing",
+            "lang": "en"
+        },
+        {
+            "name": "Finding funding",
+            "path": "Finding funding",
+            "lang": "en"
+        },
+        {
+            "name": "Success mindset",
+            "path": "Success mindset",
+            "lang": "en"
+        },
+        {
+            "name": "3D Printing",
+            "path": "3D Printing",
+            "lang": "en"
+        },
+        {
+            "name": "Effective presentations",
+            "path": "Effective presentations",
+            "lang": "en"
+        },
+        {
+            "name": "Design Thinking",
+            "path": "Design Thinking",
+            "lang": "en"
+        },
+        {
+            "name": "Maximizing capacity",
+            "path": "Maximizing capacity",
+            "lang": "en"
+        },
+        {
+            "name": "Presenting data",
+            "path": "Presenting data",
+            "lang": "en"
+        },
+        {
+            "name": "Effective leadership",
+            "path": "Effective leadership",
+            "lang": "en"
+        },
+        {
+            "name": "Profit and loss",
+            "path": "Profit and loss",
+            "lang": "en"
+        },
+        {
+            "name": "Basics of finance",
+            "path": "Basics of finance",
+            "lang": "en"
+        },
+        {
+            "name": "Customer relationship management (CRM)",
+            "path": "Customer relationship management (CRM)",
+            "lang": "en"
+        },
+        {
+            "name": "Managing contact information",
+            "path": "Managing contact information",
+            "lang": "en"
+        },
+        {
+            "name": "Strategic planning",
+            "path": "Strategic planning",
+            "lang": "en"
+        },
+        {
+            "name": "Cash flow",
+            "path": "Cash flow",
+            "lang": "en"
+        },
+        {
+            "name": "Unique value proposition",
+            "path": "Unique value proposition",
+            "lang": "en"
+        },
+        {
+            "name": "Hiring staff",
+            "path": "Hiring staff",
+            "lang": "en"
+        },
+        {
+            "name": "Your target audience",
+            "path": "Your target audience",
+            "lang": "en"
+        },
+        {
+            "name": "Starting a small business",
+            "path": "Starting a small business",
+            "lang": "en"
+        }
+    ]
+}

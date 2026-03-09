@@ -1,0 +1,15 @@
+These languages are listed, but video link doesn't lead to an mp4 file:
+
+
+Missing data when processing lesson https://blossoms.mit.edu/videos/lessons/pythagorean_theorem_geometry%E2%80%99s_most_elegant_theorem
+Urdu not found in [('English', 'https://blossoms.mit.edu/download/7556'), ('Korean Voice-over', 'https://blossoms.mit.edu/download/7807')]
+Broken link...
+
+NO video for Urdu in https://blossoms.mit.edu/videos/lessons/pythagorean_theorem_geometry%E2%80%99s_most_elegant_theorem
+Missing data when processing lesson https://blossoms.mit.edu/videos/lessons/pythagorean_theorem_geometry%E2%80%99s_most_elegant_theorem
+Urdu not found in [('English', 'https://blossoms.mit.edu/download/7556'), ('Korean Voice-over', 'https://blossoms.mit.edu/download/7807')]
+Broken link...
+
+NO video for Urdu in https://blossoms.mit.edu/videos/lessons/pythagorean_theorem_geometry%E2%80%99s_most_elegant_theorem
+
+

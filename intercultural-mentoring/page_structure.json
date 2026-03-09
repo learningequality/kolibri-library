@@ -1,0 +1,84 @@
+[
+    {
+        "path_or_url": "http://www.interculturalmentoring.eu/images/Toolkits/TOOLKIT_FOR_INTERCULTURAL_MENTOR_TRAINING.pdf",
+        "book_title": "Toolkit for Intercultural Mentor Training",
+        "chapters": [
+            {
+                "title": "Introduction",
+                "page_start": 4,
+                "page_end": 5
+            },
+            {
+                "title": "From Theory to Practice",
+                "page_start": 4,
+                "page_end": 5
+            },
+            {
+                "title": "Intercultural Mentor Profile",
+                "page_start": 5,
+                "page_end": 7
+            },
+            {
+                "title": "Course Description",
+                "page_start": 8,
+                "page_end": 9
+            },
+            {
+                "title": "Module 1: Identity and narrative ",
+                "page_start": 9,
+                "page_end": 17
+            },
+            {
+                "title": "Module 2: Life skills for the intercultural mentor",
+                "page_start": 18,
+                "page_end": 23
+            },
+            {
+                "title": "Module 3: The mentor in action: observation tools and strategies",
+                "page_start": 24,
+                "page_end": 39
+            },
+            {
+                "title": "Module 4: Evaluation and placement experience",
+                "page_start": 40,
+                "page_end": 46
+            },
+            {
+                "title": "The main mentoring activities in the pilot schools",
+                "page_start": 47,
+                "page_end": 49
+            }
+        ]
+    },
+    {
+        "path_or_url": "http://www.interculturalmentoring.eu/images/Toolkits/TOOLKIT_FOR_TRAINING_FOR_TEACHERS_AND_PROFESSIONAL_STAFF_DEDICATED.pdf",
+        "book_title": "Toolkit for Training for Teachers and Professional Staff Dedicated to the Implementation of the Mentoring Process",
+        "chapters": [
+            {
+                "title": "Introduction",
+                "page_start": 4,
+                "page_end": 5
+            },
+            {
+                "title": "Pedagogical and Educational Framework",
+                "page_start": 5,
+                "page_end": 6
+            },
+            {
+                "title": "Course Description",
+                "page_start": 6,
+                "page_end": 7
+            },
+            {
+                "title": "Course Layout",
+                "page_start": 6,
+                "page_end": 60
+            },
+            {
+                "title": "Experimentation Proposal",
+                "page_start": 61,
+                "page_end": 63
+            }
+        ]
+    }
+]

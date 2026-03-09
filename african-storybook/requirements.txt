@@ -1,0 +1,8 @@
+# bcs --sample option not released yet
+ricecooker
+future  # tmp workaround for le-pycaption missing dep
+requests
+pyppeteer
+beautifulsoup4
+asyncio
+python-dotenv
