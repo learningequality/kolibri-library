@@ -72,134 +72,48 @@ def get_zip_file(zip_file_url, main_file):
     THe `main_file` needs to be renamed to index.html to make it compatible with Kolibri.
     """
     key = zip_file_url + main_file
-    destpath = make_temporary_dir_from_key(key)
-    
-    # Check for "REPLACE WITH:" correction rule for the current `zip_file_url`
-    replacement_url = should_replace_with(zip_file_url)
-    if replacement_url:
-        zip_file_url = replacement_url
-
-    # return cached version if already there
+    key_bytes = key.encode('utf-8')
+    m = hashlib.md5()
+    m.update(key_bytes)
+    subdir = m.hexdigest()
+    destpath = os.path.join("chefdata/zipfiles/", subdir)
     final_webroot_path = os.path.join(destpath, 'webroot.zip')
     if os.path.exists(final_webroot_path):
-        return final_webroot_path
+        # Existence isn't enough: we've seen 22-byte empty zips in the cache
+        # that pass this check but fail later at ricecooker validation with a
+        # confusing "No required format preset" error. Verify the zip has at
+        # least one entry before returning its path.
+        try:
+            with zipfile.ZipFile(final_webroot_path) as zf:
+                names = zf.namelist()
+                if not names:
+                    LOGGER.error(
+                        "get_zip_file: %s exists but is an EMPTY zip (url=%s)"
+                        % (final_webroot_path, zip_file_url)
+                    )
+                elif "index.html" not in names:
+                    LOGGER.error(
+                        "get_zip_file: %s has no index.html at root (url=%s). "
+                        "top entries: %s"
+                        % (final_webroot_path, zip_file_url, names[:3])
+                    )
+                else:
+                    return final_webroot_path
+        except zipfile.BadZipFile as e:
+            LOGGER.error(
+                "get_zip_file: %s exists but is NOT a valid zip: %s (url=%s)"
+                % (final_webroot_path, e, zip_file_url)
+            )
     else:
-        LOGGER.error("Now we need local files so we can process them: %s" % final_webroot_path)
-
-    try:
-        download_file(zip_file_url, destpath, request_fn=make_request)
-
-        zip_filename = zip_file_url.split('/')[-1]         # e.g. Mathematics.zip
-        zip_basename = zip_filename.rsplit('.', 1)[0]      # e.g. Mathematics/
-
-        # July 31: handle ednge cases where zip filename doesn't match folder name inside it
-        awazchitras = ['Awazchitra_HI', 'Awazchitra_TL', 'Awazchitra_KN',
-            'Awazchitra_BN', 'Awazchitra_OD', 'Awazchitra_PN', 'Awazchitra_TM']
-        for awazchitra in awazchitras:
-            if awazchitra in zip_basename:
-                zip_basename = zip_basename.replace('Awazchitra', 'AwazChitra')
-        if '_KKS_Hi' in zip_basename:
-            zip_basename = zip_basename.replace('_KKS_Hi', '_KKS_HI')
-
-        # Mar 2: more edge cases where zip filename doesn't match folder name inside it
-        if 'Memorygamekb' in zip_basename:
-            zip_basename = zip_basename.replace('Memorygamekb', 'MemoryGamekb')
-        if 'cityofstories' in zip_basename:
-            zip_basename = zip_basename.replace('cityofstories', 'CityOfStories')
-
-        # Jun 12: fix more edge cases where .zip filename doesn't match dir name
-        if '_KKS_Gj' in zip_basename:
-            zip_basename = zip_basename.replace('_KKS_Gj', '_KKS_GJ')
-        if 'ShabdKhel' in zip_basename:
-            zip_basename = zip_basename.replace('ShabdKhel', 'Shabdkhel')
-
-        zip_folder = os.path.join(destpath, zip_basename)  # e.g. destpath/Mathematics/
-        main_file = main_file.split('/')[-1]               # e.g. activity_name.html or index.html
-
-        if 'KhelbadiKahaniyan_MR' in zip_basename:
-            # Inconsistency --- `main_file` contains dir name, and not index.html
-            main_file = 'index.html'
-
-        # Jul 8th: handle weird case-insensitive webserver main_file
-        if main_file == 'mainexpand.html':
-            main_file = 'mainExpand.html'  # <-- this is the actual filename in the zip
-
-        # Zip files from Pratham website have the web content inside subfolder
-        # of the same as the zip filename. We need to recreate these zip files
-        # to make sure the index.html is in the root of the zip.
-        local_zip_file = os.path.join(destpath, zip_filename)
-        with zipfile.ZipFile(local_zip_file) as zf:
-            # If main_file is in the root (like zips from the game repository)
-            # then we need to extract the zip contents to subfolder zip_basename/
-            for zfileinfo in zf.filelist:
-                if zfileinfo.filename == main_file:
-                    destpath = os.path.join(destpath, zip_basename)
-            # Extract zip so main file will be in destpath/zip_basename/index.html
-            zf.extractall(destpath)
-
-        # In some cases, the files are under the www directory,
-        # let's move them up one level.
-        www_dir = os.path.join(zip_folder, 'www')
-        if os.path.isdir(www_dir):
-            files = os.listdir(www_dir)
-            for f in files:
-                shutil.move(os.path.join(www_dir, f), zip_folder)
-
-        # Rename `main_file` to index.html
-        src = os.path.join(zip_folder, main_file)
-        dest = os.path.join(zip_folder, 'index.html')
-        os.rename(src, dest)
-
-        # Logic to add margin-top:44px; for games that match Corrections tab
-        add_margin_top = False
-        for row in PRADIGI_CORRECTIONS_LIST:
-            if row[CORRECTIONS_ACTION_KEY] == ADD_MARGIN_TOP_ACTION:
-                pat = row[CORRECTIONS_SOURCE_URL_PAT_KEY]
-                m = pat.match(zip_file_url)
-                if m:
-                    add_margin_top = True
-        if add_margin_top:
-            if zip_file_url.endswith('CourseContent/Games/Mathematics.zip'):
-                LOGGER.info("adding body.margin-top:44px; to ALL .html files in: %s" % zip_file_url)
-                for root, dirs, files in os.walk(zip_folder):
-                    for file in files:
-                        if file.endswith(".html"):
-                            add_body_margin_top(root, file)
-            else:
-                LOGGER.info("adding body.margin-top:44px; to index.html in: %s" % zip_file_url)
-                add_body_margin_top(zip_folder, 'index.html')
-
-        # Replace occurences of `main_file` with index.html to avoid broken links
-        for root, dirs, files in os.walk(zip_folder):
-            for file in files:
-                if file.endswith(".html") or file.endswith(".js"):
-                    file_path = os.path.join(root, file)
-                    # use bytes to avoid Unicode errors "invalid start/continuation byte"
-                    bytes_in = open(file_path, 'rb').read()
-                    bytes_out = bytes_in.replace(main_file.encode('utf-8'), b'index.html')
-                    open(file_path, 'wb').write(bytes_out)
-
-        for root, dirs, files in os.walk(zip_folder):
-            for file in files:
-                if file.endswith(".js"):
-                    LOGGER.info("Fixing Android bug in JS file: %s" % file)
-                    with open(file, 'w') as f:
-                        content = f.read()
-                        content = content.replace(
-                            'Utils.mobileDeviceFlag=true', 
-                            'Utils.mobileDeviceFlag=false'
-                        )
-                        f.write(content)
-                        f.close()
-        # create the zip file and copy it to 
-        tmp_predictable_zip_path = create_predictable_zip(zip_folder)
-        shutil.copyfile(tmp_predictable_zip_path, final_webroot_path)
-        return final_webroot_path
-
-    except Exception as e:
-        LOGGER.error("get_zip_file: %s, %s, %s, %s" %
-                     (zip_file_url, main_file, destpath, e))
-        return None
+        LOGGER.error("get_zip_file: no webroot.zip at %s (url=%s, main_file=%s)"
+                     % (final_webroot_path, zip_file_url, main_file))
+        if os.path.isdir(destpath):
+            for root, dirs, files in os.walk(destpath):
+                if files:
+                    LOGGER.error("  dir contents: %s" % files)
+        else:
+            LOGGER.error("  hash dir does not exist at all")
+    return None
 
 
 PHET_INDEX_HTML_TEMPLATE = """
